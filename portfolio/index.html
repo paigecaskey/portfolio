@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/apy3wsb.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div id="header">
+    <div class="container">
+        <nav>
+            <div class="logo-container">
+                <img src="things/logo.png" class="logo">
+            </div>
+            <ul>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#portfolio">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="things/head.png" alt="" style="margin-top: 60px;"">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">ABOUT ME</h1>
+                <p>As a data science major with a strong passion for machine learning and AI, I am constantly seeking opportunities to explore 
+                    and contribute to the rapidly evolving field of data-driven technologies. I enjoy utilizing my skills to analyze complex datasets, 
+                    extract valuable insights, and build predictive models. Additionally, I have a keen interest in leveraging data science 
+                    in various industries, particularly for marketing, sales, and trend prediction. I believe that the combination of data science and fashion presents
+                    exciting opportunities for trend prediction, personalized marketing, and customer behavior analysis, ultimately revolutionizing 
+                    the way the industry operates and enhancing the overall customer experience. I am eager to utilize my skills in data science 
+                    to contribute to a forward-thinking company and create innovative solutions that drive growth and success.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick = "opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick = "opentab('tools')">Tools</p>
+                    <p class="tab-links" onclick = "opentab('education')">Education</p>
+                    <p class="tab-links" onclick = "opentab('experience')">Experience</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>Front-End Web Development<br></li>
+                        <li>Predictive Models<br></li>
+                        <li>Trend Analyzation<br></li>
+                        <li>Data Visualization<br></li>
+                        <li>Data Scraping</li>
+                        <li>Market Analysis</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="tools">
+                    <ul>
+                        <li class = "sub-header">Languages</span></li>
+                        <li class = "sub-text">Python, Java, C++, R, SQL, HTML<br></li>
+                        <li class = "sub-header">Visualization</span></li>
+                        <li class = "sub-text">PowerBI, Tableu<br></li>
+                        <li class = "sub-header">Relevant Coursework</span></li>
+                        <li class = "sub-text">Data Structures and Algorithms, Web Engineering, Software Product Management, Statistical Models in Buisness, Accounting, Social and Ethical Issues in Computer Science, Marketing<br></li>
+                        <li><br></li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li class = "sub-header">Holy Cross High School, Scranton PA</span><br></li>
+                        <li class = "sub-text">Diploma, 2021<br></li>
+                        <li class = "sub-header">Chapman University, Orange CA</span><br></li>
+                        <li class = "sub-text">B.S. Data Science, 2025<br></li>
+                        <li class = "sub-text">Minor in Buisness Administration<br></li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li class = "sub-header">Data Integrity, Giant Food Stores</span><br></li>
+                        <li class = sub-header>Scranton PA, May 2022-August 2022</span><br></li>                                
+                        <li class = "sub-text">-Analyzed inventory patterns and sales to identify trends, presenting my findings to my team and managers.<br></li>
+                        <li class = "sub-text">-Managed the inventory database, identifying and correcting inaccuracies, while implementing strategies based on my observations.<br></li>
+                        <li class = "sub-text">-Invited to participate in a seminar with the Head of Data Integrity from headquarters, gaining valuable insights into practices for data systems concerning inventory management and trend analyzation. </li>
+                        <li class = "sub-header">Vintage Clothing Curator and Reseller, Depop</span><br></li>
+                        <li class = "sub-header">Orange, CA, September 2022-Present</span><br></li>                                
+                        <li class = "sub-text">-Top seller with a proven track record of leveraging data analysis for effective pricing strategies.<br></li>
+                        <li class = "sub-text">-Invited attendee at Depop's Seller's Summit for insights into platform algorithms and optimization in order to boost profit.<br></li>
+                        <li class = "sub-text">-Conducted a comprehensive analysis of pricing trends on Depop using Python and data visualization tools.<br></li>
+                        <li class = "sub-text">-Applied machine learning models to predict optimal pricing for resale items, resulting in increased profitability.<br></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title" style="text-align: center;">PROJECTS</h1>
+        <div class="portfolio-list">
+            <div class="portfolio-section">
+                <div class="portfolio-entry">
+                    <div class="portfolio-box">
+                        <h3 class="subheading"><a href="your_link_here.html">School Database</a></h3>
+                        <p class="sub-text">This C++ project implements a School Database Management System using a lazily balanced Binary Search Tree. The system manages information on students and faculty, allowing users to perform operations such as adding, deleting, and updating records. The lazily balanced BST ensures efficient search and manipulation of records, contributing to the overall effectiveness of the system.</p>
+                    </div>
+                    <div class="portfolio-box">
+                        <h3 class="subheading"><a href="your_link_here.html">Depop Web Scraper</a></h3>
+                        <p class="sub-text">This Python script leverages Selenium to scrape data from the popular e-commerce platform Depop. The web scraper assists in market analysis by collecting information on product listings, including details such as pricing, brand, condition, and description. The data gathered serves as a valuable resource for any seller to optimize their pricing strategy and improve sales performance.</p>
+                    </div>
+                    <div class="portfolio-box">
+                        <h3 class="subheading"><a href="your_link_here.html">Carvana Market Car Analysis</a></h3>
+                        <p class="sub-text">In an exploration of the automotive market, I conducted an in-depth, data-driven analysis focused on Carvana, the online car dealership. My analysis showcases a deep understanding of Carvana's market dynamics, including its response to economic shifts and innovative marketing strategies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="contact">
+    <div class="container">
+        <h1 class="sub-title" style="text-align: center;">CONTACT</h1>
+        <p class="contact" style="text-align: center;">
+            (570) 575-5750 &nbsp;&nbsp; | &nbsp;&nbsp; caskey@gmail.com &nbsp;&nbsp; | &nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/paige-caskey/" target="_blank" class="contactlink">LinkedIn</a> &nbsp;&nbsp; | &nbsp;&nbsp;
+            <a href="https://github.com/paigecaskey" target="_blank" class="contactlink">GitHub</a>
+        </p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+</body> 
+</html> 
